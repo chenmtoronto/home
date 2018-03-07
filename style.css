@@ -1,0 +1,142 @@
+body, html
+{
+    height: 100%;
+}
+.div1
+{
+	background-color:grey;
+	font-size:36px
+	
+}
+.parallax 
+{
+    /* The image used */
+    background-image: url('maxresdefaultcopy.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 
+{
+    /* The image used */
+    background-image: url('fdmprintercopy.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.parallax3 
+{
+    /* The image used */
+    background-image: url('SLA_Technologycopy.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax4 
+{
+    /* The image used */
+    background-image: url('sls.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body 
+{
+	background-color: grey;
+}
+h2 
+{
+	color: white;
+	text-align: center;
+}
+h1
+{
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+p 
+{
+    font-family: verdana;
+    font-size: 25px;
+}
+/* Creates styling for a 3 row table*/ 
+table1 
+{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th 
+{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) 
+{
+    background-color: #dddddd;
+}
+/*creates unordered list*/
+ul.a {
+    list-style-type: circle;
+}
+
+body {margin: 0;}
+
+/*Creates the format of the top navigation bar*/
+ul.top-navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.top-navigation li {float: left;}
+
+ul.top-navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.top-navigation li a:hover:not(.active) {background-color: #111;}
+
+ul.top-navigation li a.active {background-color: #4CAF50;}
+
+ul.top-navigation li.right {float: right;}
+
+@media screen and (max-width: 600px)
+{
+    ul.top-navigation li.right, 
+    ul.top-navigation li {float: none;}
+}
+	
